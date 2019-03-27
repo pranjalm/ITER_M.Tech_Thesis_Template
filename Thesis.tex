@@ -1,0 +1,98 @@
+\documentclass[a4paper, 11pt, oneside, openright]{iterthesis} 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{amscd}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{subfigure}
+%\usepackage{bookman}
+\usepackage[none]{hyphenat}
+\usepackage{lscape}
+\usepackage{float}
+\usepackage[percent]{overpic}
+\usepackage[nottoc]{tocbibind}
+\usepackage{epstopdf}
+\usepackage{wrapfig}
+\usepackage{datetime}
+\usepackage{varioref,array}
+\usepackage[bottom]{footmisc}
+\usepackage{longtable}
+%\usepackage{url}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage[numbers]{natbib}
+
+%\usepackage{splitbib}
+%\begin{category}[A]{Journals}
+%	\SBentries{fwa,leong,uppot,haug,stormont,sepul,sridhar,galvo,nikraz,prakash,jabro}
+%\end{category}
+%
+%\begin{category}[B]{Conferences}
+%	\SBentries{barber}
+%\end{category}
+%\begin{category}[C]{Miscellaneous}
+%	\SBentries{vine}
+%\end{category}
+\usepackage[bookmarks, colorlinks=false, pdfborder={0 0 0},citecolor=magenta, pdftitle={<Permeability test>}, pdfauthor={<Shashanka Sekhar Palai>}, pdfsubject={<Design Report>}, pdfkeywords={<Cost effective, permeability,horizontal, vertical, low cost, Python IDLE,>}]{hyperref} %for creating links in the pdf version and other additional pdf attributes, no effect on the printed document
+
+\usepackage{subfigure}
+\usepackage{fancyhdr}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{\thepage}
+\pagestyle{fancy}
+
+\title{Development Of Cost Effective Soil Permeability Testing Apparatus}
+\author{Shashanka Sekhar Palai}
+\rollnum{1561032008}
+\iterdegree{Masters of Technology}
+\reporttype{thesis}
+\department{CIVIL ENGINEERING}
+\setguide{Pranjal Mandhaniya}
+\setguidedept{DEPARTMENT OF CIVIL ENGINEERING}
+\date{\today}
+
+\graphicspath{{./images/}}
+
+
+
+
+\begin{document}
+\maketitle
+
+%\copyrightpage
+
+\makeapproval
+
+\makecertificate
+
+\acknowledgments
+\input{./Chapters/acknow}
+\endacknowledgments
+
+\makedeclaration
+
+\abstract
+\input{./Chapters/abstract}
+\endabstract
+
+\tableofcontents
+
+\listoftables
+
+\listoffigures
+
+\include{./Chapters/Chap1/introduction}
+\include{./Chapters/Chap2/litrature}
+\include{./Chapters/Chap3/work}
+\include{./Chapters/Chap4/results}
+\include{./Chapters/Chap5/scope}
+
+
+
+
+\bibliography{refer.bib}
+\bibliographystyle{chicago}
+
+
+\end{document}
